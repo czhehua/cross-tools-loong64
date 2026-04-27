@@ -19,9 +19,11 @@ LoongArch64 cross-compile toolchain, supports both x86_64(amd64) and aarch64(arm
 
 Download the tarball from the [release page](https://github.com/czhehua/cross-tool-loong64/releases) and extract it to `/opt/x-tools`:
 
+x86_64 for example:
+
 ```sh
 sudo mkdir -p /opt/x-tools
-sudo tar -xf ${Target}.tar.xz -C /opt/x-tools
+sudo tar -xf x86_64-cross-tools-loongarch64-unknown-linux-gnu-stable.tar.xz -C /opt/x-tools
 ```
 
 ## How to build
@@ -29,7 +31,7 @@ sudo tar -xf ${Target}.tar.xz -C /opt/x-tools
 Fork this project and create a new release, or build manually:
 
 ```sh
-./scripts/make ${Target}
+./scripts/make ${Target} ${VERSION}
 ```
 
 ## License
