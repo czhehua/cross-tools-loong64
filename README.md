@@ -2,11 +2,11 @@ Forked from: https://github.com/loong64/cross-tools
 
 Diff: 
 - Change stable GCC version to 12.3.0. 
-- Build stable gnu target only.
+- Build stable gnu target for amd64 only.
 
-# cross-tools
+# cross-tool-loong64
 
-LoongArch64 cross-compile toolchain, supports both x86_64(amd64) and aarch64(arm64) architectures.
+LoongArch64 cross-compile toolchain for x86_64(amd64) architecture.
 
 ## Supported targets
 
